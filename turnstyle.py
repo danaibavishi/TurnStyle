@@ -35,7 +35,7 @@ if __name__ == '__main__':
 			print distance # Remove for error 3
 			if distance < 20:
 				if said == 0:
-					espeak.synth("Welcome you beautiful people")
+					espeak.synth("Welcome")
 					said = 1
 				servo.opengate()
 				led.DeactivateRed()
@@ -43,7 +43,7 @@ if __name__ == '__main__':
 				time.sleep(1)
 			else:
 				if said == 1:
-					espeak.synth("Gate closed, See you next time")
+					espeak.synth("Gate closed")
 					said = 0 
 				servo.closegate()
 				led.DeactivateBlue()
