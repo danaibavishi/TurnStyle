@@ -1,2 +1,2 @@
-# TurnStyle
-Workshop Content
+# TurnStile
+Python coding fundamentals workshop.
